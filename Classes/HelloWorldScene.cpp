@@ -20,10 +20,11 @@ bool HelloWorld::init()
 
 	////////////////// Only code between the comment lines //////////////////
 	
-	// Just creating a sprite
 	auto sprite = Sprite::create("teddy_orig.png");
 
-	// Just adding a sprite to our scene
+	// Setting an anchor point
+	sprite->setAnchorPoint(Vec2(0, 0));
+
 	this->addChild(sprite, 0);
 
 	/////////////////////////////////////////////////////////////////////////

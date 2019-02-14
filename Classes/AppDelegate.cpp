@@ -16,7 +16,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
 	auto glview = director->getOpenGLView();
 	if (!glview) {
 		glview = GLViewImpl::create("DreamTeamU Tutorial");
-		glview->setFrameSize(1000, 1000);
+		glview->setFrameSize(1024, 768);
 		director->setOpenGLView(glview);
 	}
 
